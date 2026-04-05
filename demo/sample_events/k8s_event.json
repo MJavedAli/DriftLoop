@@ -1,0 +1,7 @@
+{
+  "service": "checkout",
+  "timestamp": "2026-04-05T10:08:00Z",
+  "type": "Warning",
+  "reason": "HorizontalPodAutoscaler",
+  "message": "Scaling target fluctuating due to unstable resource usage"
+}
