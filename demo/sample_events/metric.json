@@ -1,0 +1,6 @@
+{
+  "service": "checkout",
+  "timestamp": "2026-04-05T10:07:00Z",
+  "metric": "cpu_usage",
+  "value": 0.92
+}
