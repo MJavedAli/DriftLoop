@@ -153,41 +153,43 @@ LLMs operate over structured system state, not raw logs.
 3. Correlation over summarization
 
 The goal is to link:
-	•	change → behavior → failure
+	- change → behavior → failure
 
 4. Explainability
-
 Every output should include:
-	•	reasoning
-	•	supporting evidence
-	•	confidence
+	-	reasoning
+	-	supporting evidence
+	- 	confidence
 ---
 
 ### Current Status
 
-This is a POC focused on:
-	•	Single-service scenario
-	•	Simulated incident data
-	•	Basic reasoning pipeline
+
+This is a POC focused on: 
+- Single-service scenario
+- Simulated incident data
+- Basic reasoning pipeline
+
 ---
 
 ### Roadmap
 
-	•	Drift detection engine (declared vs runtime state)
-	•	PR generation for suggested fixes
-	•	SLO-aware reasoning
-	•	Blast radius simulation
-	•	Multi-service correlation
+- Drift detection engine (declared vs runtime state)
+- PR generation for suggested fixes
+- SLO-aware reasoning
+- Blast radius simulation
+- Multi-service correlation
 
 ---
 
 ### Why This Matters
 
-LLMs are currently used as copilots for generating code and configs.
-But DevOps problems are not just about writing YAML faster.
+- LLMs are currently used as copilots for generating code and configs.
+- But DevOps problems are not just about writing YAML faster.
+  
 They are about:
-Understanding how intent, runtime behavior, and failures interact over time.
-DriftLoop explores how LLMs can help engineers reason across that system.
+- Understanding how intent, runtime behavior, and failures interact over time.
+- DriftLoop explores how LLMs can help engineers reason across that system.
 
 ---
 
